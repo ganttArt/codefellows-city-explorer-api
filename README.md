@@ -34,6 +34,13 @@ Name of feature: Setup server repository
 - Finish time: 6:18pm
 - Actual time needed to complete: 18min
 
+Name of feature: Weather (placeholder) Front and Backend
+
+- Estimate of time needed to complete: 1hour
+- Start time: 6:26pm
+- Finish time: 
+- Actual time needed to complete: 
+
 ## Credit and Collaborations
 
 [Mason Aviles](https://www.linkedin.com/in/masonaviles/) - API Request/Response Graphic
