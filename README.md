@@ -57,6 +57,13 @@ Name of feature: Movies api
 - Finish time: 8:13pm
 - Actual time needed to complete: 45min
 
+Name of feature: Refactoring
+
+- Estimate of time needed to complete: 20min
+- Start time: 2:30pm
+- Finish time: 2:49pm
+- Actual time needed to complete: 19min
+
 ## Credit and Collaborations
 
 [Mason Aviles](https://www.linkedin.com/in/masonaviles/) - API Request/Response Graphic
