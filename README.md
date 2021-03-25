@@ -43,6 +43,13 @@ Name of feature: Weather (placeholder) Front and Backend + Error Handling
 - Finish time: 2:46pm
 - Actual time needed to complete: 2hr 45min
 
+Name of feature: Weather (live)
+
+- Estimate of time needed to complete: 1hour
+- Start time: 4:51pm
+- Finish time: 5:22pm
+- Actual time needed to complete: 1hr 1min
+
 ## Credit and Collaborations
 
 [Mason Aviles](https://www.linkedin.com/in/masonaviles/) - API Request/Response Graphic
