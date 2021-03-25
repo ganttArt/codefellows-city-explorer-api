@@ -50,6 +50,13 @@ Name of feature: Weather (live)
 - Finish time: 5:22pm
 - Actual time needed to complete: 1hr 1min
 
+Name of feature: Movies api
+
+- Estimate of time needed to complete: 1hour
+- Start time: 7:30pm
+- Finish time: 8:13pm
+- Actual time needed to complete: 45min
+
 ## Credit and Collaborations
 
 [Mason Aviles](https://www.linkedin.com/in/masonaviles/) - API Request/Response Graphic

@@ -14,6 +14,11 @@ function Forecast(dailyForecast) {
   this.description = dailyForecast.weather.description;
 }
 
+function Movie(movie) {
+  this.title = movie.title;
+  this.description = movie.overview;
+}
+
 app.get('/weather', (request, response) => {
   const url = 'http://api.weatherbit.io/v2.0/forecast/daily';
   const query = {
@@ -28,6 +33,29 @@ app.get('/weather', (request, response) => {
     .then(forecast => {
       const forecastArray = forecast.body.data.map(day => new Forecast(day));
       response.status(200).send(forecastArray);
+    })
+    .catch(err => {
+      response.status(500).send(err.message);
+    });
+});
+
+app.get('/movies', (request, response) => {
+  console.log('movies');
+  const url = 'https://api.themoviedb.org/3/search/movie';
+  const query = {
+    api_key: process.env.MOVIE_API_KEY,
+    query: request.query.location,
+  };
+  superagent
+    .get(url)
+    .query(query)
+    .then(movies => {
+      const movieArray = movies.body.results.map(movie => new Movie(movie));
+      response.status(200).send(movieArray);
+      console.log(movieArray);
+    })
+    .catch(err => {
+      response.status(500).send(err.message);
     });
 });
 
