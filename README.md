@@ -64,6 +64,13 @@ Name of feature: Refactoring
 - Finish time: 2:49pm
 - Actual time needed to complete: 19min
 
+Name of feature: Cache-ing
+
+- Estimate of time needed to complete: 1.5hr
+- Start time: 1:30pm
+- Finish time: 2:40pm
+- Actual time needed to complete: 1hr 10min
+
 ## Credit and Collaborations
 
 [Mason Aviles](https://www.linkedin.com/in/masonaviles/) - API Request/Response Graphic
