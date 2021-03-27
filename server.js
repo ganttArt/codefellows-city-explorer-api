@@ -7,14 +7,14 @@ const app = express();
 app.use(cors());
 const PORT = process.env.PORT;
 
-const getWeather = require('./modules/weather');
-const getMovies = require('./modules/movies');
+const weatherHandler = require('./modules/weather');
+const movieHandler = require('./modules/movies');
 
-app.get('/weather', getWeather);
-app.get('/movies', getMovies);
+app.get('/weather', weatherHandler);
+app.get('/movies', movieHandler);
 
 app.use('*', (request, response) => {
   response.status(500).send('Server Error');
 });
 
-app.listen(PORT, () => console.log(`listening on ${PORT}`));
+app.listen(PORT, () => console.log(`Server up on ${PORT}`));
